@@ -11,6 +11,8 @@
 		4F9F8B36266D012E001C5657 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9F8B35266D012E001C5657 /* ContentView.swift */; };
 		4F9F8B38266D0131001C5657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9F8B37266D0131001C5657 /* Assets.xcassets */; };
 		4F9F8B3B266D0131001C5657 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9F8B3A266D0131001C5657 /* Preview Assets.xcassets */; };
+		4FCEA117266D0FDF00BCEE63 /* LogoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCEA116266D0FDF00BCEE63 /* LogoImage.swift */; };
+		4FCEA11A266D21B300BCEE63 /* CaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCEA119266D21B300BCEE63 /* CaseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		4F9F8B37266D0131001C5657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F9F8B3A266D0131001C5657 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4F9F8B3C266D0131001C5657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FCEA116266D0FDF00BCEE63 /* LogoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoImage.swift; sourceTree = "<group>"; };
+		4FCEA119266D21B300BCEE63 /* CaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 			children = (
 				4F9F8B33266D012E001C5657 /* SwitchCaseApp.swift */,
 				4F9F8B35266D012E001C5657 /* ContentView.swift */,
+				4FCEA119266D21B300BCEE63 /* CaseView.swift */,
 				4F9F8B37266D0131001C5657 /* Assets.xcassets */,
 				4F9F8B3C266D0131001C5657 /* Info.plist */,
 				4F9F8B39266D0131001C5657 /* Preview Content */,
+				4FCEA116266D0FDF00BCEE63 /* LogoImage.swift */,
 			);
 			path = SwitchCase;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FCEA11A266D21B300BCEE63 /* CaseView.swift in Sources */,
+				4FCEA117266D0FDF00BCEE63 /* LogoImage.swift in Sources */,
 				4F9F8B36266D012E001C5657 /* ContentView.swift in Sources */,
 				4F9F8B34266D012E001C5657 /* SwitchCaseApp.swift in Sources */,
 			);

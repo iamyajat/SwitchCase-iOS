@@ -9,8 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        VStack(alignment: .leading) {
+            HStack{
+                Text("SwitchCase")
+                    .font(.title)
+                    .fontWeight(.bold)
+                Spacer()
+            }
+            .padding([.top, .leading, .trailing])
+            Divider()
+            CaseView()
+        }
     }
 }
 
